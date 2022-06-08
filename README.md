@@ -4,8 +4,8 @@ Implementación de una librería de cuaterniones en .NET Core 3.1 para la clase 
 # Cómo usar
 
 1. Incluye la librería en tu proyecto, para esto puedes:
-1.1 Incluir el archivo **Quaternions.cs** al directorio de tu proyecto.
-1.2 Incluir la carpeta **QuaternionsLibrary** al directorio de tu proyecto y luego agrega el archivo **QuaternionsLibrary.csproj** como una referencia a tu proyecto.
+	1. Incluir el archivo **Quaternions.cs** al directorio de tu proyecto.
+	2. Incluir la carpeta **QuaternionsLibrary** al directorio de tu proyecto y luego agrega el archivo **QuaternionsLibrary.csproj** como una referencia a tu proyecto.
 2. Importa el **namespace Quaternions** en donde quieras usar la librería.
 
 # Cómo correr las pruebas unitarias
