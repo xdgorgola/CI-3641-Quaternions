@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaternionxUnit", "QuaternionxUnit\QuaternionxUnit.csproj", "{E650085A-829E-402E-B702-8572D7657FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaternionsLibrary", "QuaternionsLibrary\QuaternionsLibrary.csproj", "{E492EAFC-FCA6-456B-B66F-FE55EE4352A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E650085A-829E-402E-B702-8572D7657FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E650085A-829E-402E-B702-8572D7657FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E650085A-829E-402E-B702-8572D7657FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E650085A-829E-402E-B702-8572D7657FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E492EAFC-FCA6-456B-B66F-FE55EE4352A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E492EAFC-FCA6-456B-B66F-FE55EE4352A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E492EAFC-FCA6-456B-B66F-FE55EE4352A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E492EAFC-FCA6-456B-B66F-FE55EE4352A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49120CBE-09BC-4F5C-9FCD-28701D3F8D89}
+	EndGlobalSection
+EndGlobal
