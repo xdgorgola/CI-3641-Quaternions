@@ -1,6 +1,9 @@
 # CI-3641-Quaternions
 Implementación de una librería de cuaterniones en .NET Core 3.1 para la clase CI-3641.
 
+# IMPORTANTE
+El **operador & de medida o valor absoluto**, es reemplazado por el operador **!**.
+
 # Cómo usar
 
 1. Incluye la librería en tu proyecto, para esto puedes:
