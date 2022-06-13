@@ -16,11 +16,11 @@ namespace Quaternions
         /// </summary>
         public float b;
         /// <summary>
-        /// Coeficiente c de i del cuaternion.
+        /// Coeficiente c de j del cuaternion.
         /// </summary>
         public float c;
         /// <summary>
-        /// Coeficiente d de i del cuaternion.
+        /// Coeficiente d de k del cuaternion.
         /// </summary>
         public float d;
 
