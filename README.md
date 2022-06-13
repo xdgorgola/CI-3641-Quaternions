@@ -27,14 +27,14 @@ ReportGenerator es una herramienta global de .NET y viene en un package de NuGet
 ## Realizar pruebas unitarias
 Para únicamente realizar las pruebas unitarias **(sin Code Coverage)**, basta con abrir la carpeta **QuaternionsSolution** del proyecto y correr el siguiente comando:
 
-	dotnet test
+	dotnet test --runtime <RUNTIME_IDENTIFIER>
 
 Los resultados se muestran en la consola.
 
 ## Realizar Code Coverage
 Para realizar las pruebas unitarias **con Code Coverage**, basta con abrir la carpeta **QuaternionsSolution** del proyecto y correr el siguiente comando:
 
-	dotnet test --collect:"XPlat Code Coverage"
+	dotnet test --collect:"XPlat Code Coverage" --runtime <RUNTIME_IDENTIFIER>
 
 Los resultados se muestran en la consola junto a un output con el siguiente patrón que indica la ruta a un archivo **coverage.cobertura.xml**.
 
@@ -50,6 +50,8 @@ Más info en **De interés**
 - Aunque el proyecto **QuaternionsLibrary.csproj** hace target a .NET Core 3.1, debido a la sencillez de la librería, debe poder cambiarse a otros frameworks de .NET.
 
 - Arrastrar **Quaternions.cs** a tu proyecto quizás sea la mejor opción, dado a que es código de C# bastante básico y probablemente soportado por múltiples versiones de .NET.
+
+- RUNTIME_IDENTIFIER es la plataforma para la que vas a buildear/hacer las pruebas. Estos se pueden encontrar en el siguiente [enlace](https://docs.microsoft.com/en-us/dotnet/core/rid-catalog).
 
 ## De interés
 - Sobre el comando **dotnet test** https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-test
